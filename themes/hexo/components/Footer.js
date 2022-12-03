@@ -18,14 +18,20 @@ const Footer = ({ title }) => {
     >
       <DarkModeButton/>
 
-      <i className='fas fa-copyright' /> {`${copyrightDate}`} <span><i className='mx-1 animate-pulse fas fa-heart'/> <a href={BLOG.LINK} className='underline font-bold  dark:text-gray-300 '>{BLOG.AUTHOR}</a>.<br/>
+      <i className='fas fa-copyright' /> {`${copyrightDate}`} <span><i className='mx-1 animate-pulse fas fa-heart'/> <a href={BLOG.LINK} className='underline font-bold  dark:text-gray-300 '>伊緻幻</a>.<br/>
 
       {BLOG.BEI_AN && <><i className='fas fa-shield-alt' /> <a href="https://icp.gov.moe/?keyword=20224002" target="_blank"><img src="https://www.chwin.asia/icp120.png" alt="icp" width="19" height="19">萌ICP备20224002号</a><br/></>}
 
       <span className='hidden busuanzi_container_site_pv'>
-            <i className='fas fa-eye'/><span className='px-1 busuanzi_value_site_pv'> </span>  </span>
-      <span className='pl-2 hidden busuanzi_container_site_uv'>
-        <i className='fas fa-users'/> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
+            本站已稳定运行了
+              <script type="text/javascript">
+              var webstar= new Date("12/3/2022");
+              var webnow = new Date();
+              var dotime = webnow.getTime() - webstar.getTime();
+              var donow = Math.floor(dotime / (1000 * 60 * 60 * 24));
+              document.write(+donow)
+              </script>
+              天</span>
         <br/>
         <h1>{title}</h1>
         <span className='text-xs '>Powered by <a href='https://github.com/tangly1024/NotionNext' className='underline dark:text-gray-300'>NotionNext {BLOG.VERSION}</a>.</span></span><br/>
