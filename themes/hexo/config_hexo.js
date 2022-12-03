@@ -1,6 +1,6 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: ['坐在角落', '仰望完全星辰', '不觉轻声叹息', '欢迎来到幻的生活博客'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: ['坐在角落', '仰望万千星辰', '不觉轻声唉息', '欢迎来到幻的生活博客'], // 首页大图标语文字
 
   HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
 
