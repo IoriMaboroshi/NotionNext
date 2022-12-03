@@ -20,7 +20,7 @@ const Footer = ({ title }) => {
 
       <i className='fas fa-copyright' /> {`${copyrightDate}`} <span><i className='mx-1 animate-pulse fas fa-heart'/> <a href={BLOG.LINK} className='underline font-bold  dark:text-gray-300 '>伊緻幻</a>.<br/>
 
-      {BLOG.BEI_AN && <><i className='fas fa-shield-alt' /> <a href='https://icp.gov.moe/?keyword=20224002' className='mr-2'><img src='https://www.chwin.asia/icp120.png' alt='icp' width='19' height='19'>萌ICP备20224002号</a><br/></>}
+      {BLOG.BEI_AN && <><i className='fas fa-shield-alt' /> <a href='https://icp.gov.moe/?keyword=20224002' className='mr-2'>萌ICP备20224002号</a><br/></>}
 
       <span className='hidden busuanzi_container_site_pv'>
              <i className='fas fa-eye'/><span className='px-1 busuanzi_value_site_pv'> </span>  </span>
