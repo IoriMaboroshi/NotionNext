@@ -55,7 +55,7 @@ const BLOG = {
   CONTACT_WEIBO: 'https://weibo.com/iorimaboroshi', // 你的微博个人主页
   CONTACT_TWITTER: 'https://twitter.com/IoriMaboroshi', // 你的twitter个人主页
   CONTACT_GITHUB: 'https://github.com/IoriMaboroshi', // 你的github个人主页
-  CONTACT_TELEGRAM: '', // 你的telegram 地址 例如 https://t.me/tangly_1024
+  CONTACT_TELEGRAM: 'https://t.me/IoriMaboroshi', // 你的telegram 地址 例如 https://t.me/tangly_1024
   CONTACT_LINKEDIN: '', // 你的linkedIn 首页
 
 
