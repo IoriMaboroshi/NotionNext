@@ -7,6 +7,8 @@ const BLOG = {
   NOTION_PAGE_ID: 'a77c044aa3114463bb97180d2eaebb4a',
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
+  PSEUDO_STATIC: false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
+  NEXT_REVALIDATE_SECOND: 3, // 更新内容缓存间隔 单位(秒)
 
   // 一个小插件展示你的facebook fan page~ @see https://tw.andys.pro/article/add-facebook-fanpage-notionnext
   FACEBOOK_PAGE_TITLE:
