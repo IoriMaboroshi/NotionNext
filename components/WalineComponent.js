@@ -27,7 +27,7 @@ const WalineComponent = (props) => {
         el: containerRef.current,
         serverURL: BLOG.COMMENT_WALINE_SERVER_URL,
         lang: BLOG.lang,
-        reaction: true
+        reaction: false
       })
     }
 
