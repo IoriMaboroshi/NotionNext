@@ -45,6 +45,7 @@ const MyApp = ({ Component, pageProps }) => {
         {BLOG.ADSENSE_GOOGLE_ID && <GoogleAdsense />}
         {BLOG.FACEBOOK_APP_ID && BLOG.FACEBOOK_PAGE_ID && <Messenger />}
         {JSON.parse(BLOG.FIREWORKS) && <Fireworks/>}
+        <script type="text/javascript" src="/static/snow.js"></script>
     </>
 
   return (
