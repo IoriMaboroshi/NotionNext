@@ -134,7 +134,7 @@ const BLOG = {
   NEST: true, // 开关
 
   // 动态彩带特效
-  FLUTTERINGRIBBON: process.env.NEXT_PUBLIC_FLUTTERINGRIBBON || false, // 开关
+  FLUTTERINGRIBBON: process.env.NEXT_PUBLIC_FLUTTERINGRIBBON || true, // 开关
   // 静态彩带特效
   RIBBON: process.env.NEXT_PUBLIC_RIBBON || false, // 开关
 
