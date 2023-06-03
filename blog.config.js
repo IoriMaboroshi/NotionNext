@@ -10,7 +10,7 @@ const BLOG = {
   APPEARANCE: 'auto', // ['light', 'dark', 'auto'], // light 日间模式，dark 夜间模式，auto 根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: [16, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-  CUSTOM_MENU: true, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
+  CUSTOM_MENU: false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: 'IoriMaboroshi', // 作者
   BIO: '一个追求奇怪的高中生', // 作者简介
