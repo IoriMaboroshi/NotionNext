@@ -10,15 +10,15 @@ const BLOG = {
   APPEARANCE: 'auto', // ['light', 'dark', 'auto'], // light 日间模式，dark 夜间模式，auto 根据时间和主题自动夜间模式
 
   AUTHOR: 'IoriMaboroshi', // 作者
-  BIO: '一个追求奇怪的高中生', // 作者简介
-  LINK: 'https://blog.chwin.asia', // 网站地址
-  KEYWORDS: 'Notion, 博客，blog, IoriMaboroshi, 生活，伊緻幻', // 网站关键词 英文逗号隔开
+  BIO: '普通男大', // 作者简介
+  LINK: 'https://blog.iorimaboroshi.asia', // 网站地址
+  KEYWORDS: 'Notion, 博客，blog, IoriMaboroshi, 生活, 伊緻幻, University, Student, Geek', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: 'thechwinlyu@outlook.com', // 邮箱
-  CONTACT_WEIBO: 'https://weibo.com/iorimaboroshi', // 你的微博个人主页
-  CONTACT_TWITTER: 'https://twitter.com/IoriMaboroshi', // 你的 twitter 个人主页
+  CONTACT_WEIBO: '', // 你的微博个人主页
+  CONTACT_TWITTER: '', // 你的 twitter 个人主页
   CONTACT_GITHUB: 'https://github.com/IoriMaboroshi', // 你的 github 个人主页
-  CONTACT_TELEGRAM: 'https://t.me/IoriMaboroshi', // 你的 telegram 地址 例如 https://t.me/tangly_1024
+  CONTACT_TELEGRAM: '', // 你的 telegram 地址 例如 https://t.me/tangly_1024
   CONTACT_LINKEDIN: '', // 你的 linkedIn 首页
 
   // 自定义字体示例：请先将 CUSTOM_FONT 改为 true，并将 CUSTOM_FONT_URL 改为你的字体 CSS 地址，同时在 CUSTOM_FONT_SANS 与 CUSTOM_FONT_SERIF 中指定你的 fontfamily
